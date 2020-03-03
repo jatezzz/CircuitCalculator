@@ -1,6 +1,6 @@
-package diseño_calculadora;
+package calculator;
 
-public class Complejo {
+public final class Complejo {
     
     private double real,img,arg,modulo,argg;
   

@@ -1,4 +1,4 @@
-package diseño_calculadora;
+package calculator;
 
 public class CalC {
     Complejo g;
@@ -13,7 +13,6 @@ public class CalC {
     public Complejo producto(Complejo n1,Complejo n2){
         double rel=n1.getReal()*n2.getReal()-n1.getImg()*n2.getImg();
         double img=n1.getReal()*n2.getImg()+n2.getReal()*n1.getImg();
-       // System.out.println(rel);
         g=new Complejo(rel,img,1);
         return g;
     }
